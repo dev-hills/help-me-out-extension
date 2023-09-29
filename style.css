@@ -1,0 +1,219 @@
+.extension-container {
+  width: 300px;
+  height: 440px;
+  padding: 24px 24px 32px 24px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.extension-top-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.extension-top-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.extension-top-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.extension-top-desc {
+  font-family: Work Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 20px;
+  color: #413c6d;
+}
+
+.extension-record-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 32px;
+}
+
+.extension-record-btn-fullscreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.extension-record-btn-fullscreen span {
+  color: var(--primary-primary-200, #928fab);
+  font-family: Work Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  gap: 8px;
+}
+
+.extension-record-btn-currenttab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.extension-record-btn-currenttab span {
+  color: var(--primary-main, #120b48);
+  font-family: Work Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  gap: 8px;
+}
+
+.extension-permission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.extension-permission-camera {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 252px;
+  padding: 12px 12px 12px 12px;
+  margin-top: 24px;
+  border-radius: var(--Inner-Radius, 12px);
+  border: 3px solid var(--primary-primary-600, #100a42);
+}
+
+.extension-permission-camera div {
+  display: flex;
+  width: 252px;
+  padding: var(--Inner-Radius, 12px) var(--Inner-Radius, 12px)
+    var(--Inner-Radius, 12px) 16px;
+  align-items: center;
+  gap: 8px;
+}
+
+.extension-permission-camera div span {
+  color: var(--primary-primary-600, #100a42);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.extension-permission-mic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 252px;
+  padding: 12px 12px 12px 12px;
+  margin-top: 24px;
+  border-radius: var(--Inner-Radius, 12px);
+  border: 3px solid var(--primary-primary-600, #100a42);
+}
+
+.extension-permission-mic div {
+  display: flex;
+  width: 252px;
+  padding: var(--Inner-Radius, 12px) var(--Inner-Radius, 12px)
+    var(--Inner-Radius, 12px) 16px;
+  align-items: center;
+  gap: 8px;
+}
+
+.extension-permission-mic div span {
+  color: var(--primary-primary-600, #100a42);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.extension-permission button {
+  display: flex;
+  width: 252px;
+  height: 51px;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--Inner-Radius, 12px);
+  background: var(--primary-main, #120b48);
+  color: #fafdff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.action-panel {
+  display: flex;
+  padding: var(--Inner-Radius, 12px) 40px var(--Inner-Radius, 12px) 16px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  gap: 8px;
+  outline: 10px solid rgba(98, 98, 98, 0.17);
+  border-radius: 200px;
+  background: #141414;
+  width: 567px;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  cursor: grab;
+  user-select: none;
+  z-index: 1;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  display: none;
+}
+
+.action-panel-right {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.action-panel-right button {
+  background: transparent;
+  border: none;
+}
+
+.action-panel-time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 13px;
+  border-right: 1px solid #e8e8e8;
+  padding-right: 19px;
+}
+
+.recording-icon {
+  width: 10px;
+  height: 10px;
+  border-radius: 17px;
+  background: #c00404;
+}
+
+#recording-time {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "HelpMeOut: Screen Recorder",
+  "version": "1.0.0",
+  "description": "This extension helps you record and share videos with ease.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"]
+    }
+  ],
+
+  "manifest_version": 3,
+  "author": "Hills.dev",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "HelpMeOut: Screen Recorder"
+  },
+  "icons": {
+    "48": "public/images/i-con-71.png"
+  }
+}
